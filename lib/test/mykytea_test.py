@@ -34,7 +34,7 @@ for word in mk.getWS(s):
     print(word)
 
 #解析結果を文字列で取得
-print(mk.getTagsToString(s))
+print((mk.getTagsToString(s)))
 
 #1位のタグを取得
 t = mk.getTags(s)
